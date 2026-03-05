@@ -40,7 +40,7 @@ cd ~/MagicMirror/modules
 
 2. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/MMM-ParqetPerformance.git
+git clone https://github.com/pitthecat/MMM-ParqetPerformance.git
 ```
 
 3. Navigate to the module folder:
