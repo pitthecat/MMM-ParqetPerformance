@@ -1,0 +1,30 @@
+{
+  "name": "MMM-ParqetPerformance",
+  "version": "1.0.0",
+  "description": "MagicMirror module to display Parqet stock portfolio performance",
+  "main": "MMM-ParqetPerformance.js",
+  "keywords": [
+    "MagicMirror",
+    "module",
+    "parqet",
+    "portfolio",
+    "stocks",
+    "performance",
+    "finance"
+  ],
+  "author": "pitthecat",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pitthecat/MMM-ParqetPerformance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pitthecat/MMM-ParqetPerformance/issues"
+  },
+  "homepage": "https://github.com/pitthecat/MMM-ParqetPerformance#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "magicmirror": ">=2.0.0"
+  }
+}

@@ -1,0 +1,80 @@
+/* MMM-ParqetPerformance.css
+ * Styling for Parqet Performance Module
+ */
+
+.MMM-ParqetPerformance .parqet-wrapper {
+	text-align: left;
+	padding: 10px;
+}
+
+.MMM-ParqetPerformance .performance-container {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.MMM-ParqetPerformance .performance-metrics {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.MMM-ParqetPerformance .metric-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 0;
+	font-size: 16px;
+	line-height: 1.5;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.MMM-ParqetPerformance .metric-row.period {
+	font-size: 14px;
+	opacity: 0.7;
+	border-bottom: none;
+}
+
+.MMM-ParqetPerformance .metric-label {
+	font-weight: 400;
+	margin-right: 15px;
+	opacity: 0.8;
+}
+
+.MMM-ParqetPerformance .metric-value {
+	font-weight: 600;
+	text-align: right;
+	font-family: monospace;
+	font-size: 18px;
+}
+
+.MMM-ParqetPerformance .metric-value.positive {
+	color: #4ade80;
+}
+
+.MMM-ParqetPerformance .metric-value.negative {
+	color: #f87171;
+}
+
+.MMM-ParqetPerformance .dimmed {
+	opacity: 0.6;
+}
+
+.MMM-ParqetPerformance .small {
+	font-size: 14px;
+}
+
+.MMM-ParqetPerformance .light {
+	font-weight: 300;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+	.MMM-ParqetPerformance .metric-row {
+		font-size: 14px;
+	}
+	
+	.MMM-ParqetPerformance .metric-value {
+		font-size: 16px;
+	}
+}
